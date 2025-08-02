@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Registration</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="header-container">
+  <nav class="nav-bar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#general-knowledge">General Knowledge</a></li>
+      <li><a href="#mathematics">Mathematics</a></li>
+      <li><a href="#science">Science</a></li>
+      <li><a href="#question-bank">Question Bank</a></li>
+    </ul>
+  </nav>
+
+  <img
+    src="https://imageio.forbes.com/specials-images/imageserve/649b39cf30e07191376aa415/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds"
+    alt="Quiz Banner"
+    class="header-img"
+  />
+</div>
+
+<div class="quiz-container" id="general-knowledge">
+  <h1>General Knowledge Quiz</h1>
+
+  <div class="quiz-question">
+    <p>1. What is the capital of Australia?</p>
+    <button onclick="checkAnswer(this, false)">Sydney</button>
+    <button onclick="checkAnswer(this, true)">Canberra</button>
+  </div>
+
+  <div class="quiz-question">
+    <p>2. Which ocean is the largest?</p>
+    <button onclick="checkAnswer(this, true)">Pacific Ocean</button>
+    <button onclick="checkAnswer(this, false)">Atlantic Ocean</button>
+  </div>
+
+  <div class="quiz-question">
+    <p>3. Who painted the Mona Lisa?</p>
+    <button onclick="checkAnswer(this, true)">Leonardo da Vinci</button>
+    <button onclick="checkAnswer(this, false)">Michelangelo</button>
+  </div>
+
+  <div class="quiz-question">
+    <p>4. What gas do plants absorb?</p>
+    <button onclick="checkAnswer(this, true)">Carbon Dioxide</button>
+    <button onclick="checkAnswer(this, false)">Oxygen</button>
+  </div>
+
+  <div class="quiz-question">
+    <p>5. What is the largest planet in our solar system?</p>
+    <button onclick="checkAnswer(this, true)">Jupiter</button>
+    <button onclick="checkAnswer(this, false)">Saturn</button>
+  </div>
+
+  <div class="quiz-question">
+    <p>6. Who discovered gravity?</p>
+    <button onclick="checkAnswer(this, true)">Isaac Newton</button>
+    <button onclick="checkAnswer(this, false)">Albert Einstein</button>
+  </div>
+
+  <div class="quiz-question">
+    <p>7. Which animal is known as the king of the jungle?</p>
+    <button onclick="checkAnswer(this, true)">Lion</button>
+    <button onclick="checkAnswer(this, false)">Tiger</button>
+  </div>
+
+  <div class="quiz-question">
+    <p>8. What is H2O commonly known as?</p>
+    <button onclick="checkAnswer(this, true)">Water</button>
+    <button onclick="checkAnswer(this, false)">Hydrogen</button>
+  </div>
+
+  <div class="quiz-question">
+    <p>9. How many continents are there?</p>
+    <button onclick="checkAnswer(this, true)">7</button>
+    <button onclick="checkAnswer(this, false)">6</button>
+  </div>
+
+  <div class="quiz-question">
+    <p>10. What is the boiling point of water?</p>
+    <button onclick="checkAnswer(this, true)">100°C</button>
+    <button onclick="checkAnswer(this, false)">90°C</button>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
